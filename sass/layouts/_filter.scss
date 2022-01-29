@@ -1,0 +1,13 @@
+.filter__wrap {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.filter__item {
+  &:not(:first-child) {
+    margin-left: 8px;
+  }
+}
